@@ -1,14 +1,54 @@
 .corousel-img-size {
     height: 100vh;
+    filter: brightness(0.4);
 }
 
 .button{
  float: inline-end;
  border-radius: 20px;
+ color: #fff;
+
+}
+#ccaption {
+    position: absolute;
+    top: 50%; /* Adjust the vertical position */
+    left: 40px; /* Align with the left edge of the container */
+    transform: translateY(-10%);
+    text-align: left; /* Align text to the left */
+}
+
+#ccaption h1,
+#ccaption h3 {
+    margin: 0; /* Remove default margins if any */
+    color: rgba(255, 255, 255, 0.8)
+}
+
+
+
+.nav-item .nav-link {
+    text-decoration: none;
+    border-bottom: 6px solid transparent;
+    display: inline-block;
+   
+}
+
+
+.nav-item:first-child .nav-link {
+    border-bottom: 6px solid #ffffff; 
+}
+
+
+.nav-item:hover .nav-link {
+    border-bottom: 5px solid #ffffff; 
+}
+
+
+.nav-item:hover .nav-link:hover {
+    text-decoration: none;
 }
 
 .nav1{
- 
+  
 }
 .headder{
     background-color: brown;
@@ -23,7 +63,7 @@
 }
 .nav-item{
     word-spacing: 5px;
-   
+ 
   padding-left: 80px;
    justify-content: space-between;
 }
